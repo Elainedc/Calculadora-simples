@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background-image: linear-gradient(45 deg, black, pink );
+    height: 100%;
+    color: orange;
+    font-family: Arial;
+}
+
+.calculadora
