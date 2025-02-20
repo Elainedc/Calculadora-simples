@@ -4,10 +4,18 @@
 }
 
 .fundo {
-    background-image: linear-gradient(45 deg, black, pink );
-    height: 100%;
-    color: orange;
+    background-image: linear-gradient(45 deg, rgb(6, 6, 6), rgb(236, 17, 218) );
+    height: 100vh;
+    color: rgb(139, 11, 237);
     font-family: Arial;
 }
 
-.calculadora
+.calculadora {
+    position: absolute;
+    background-color: aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border-radius: 15px;
+    padding: 15%;
+}
